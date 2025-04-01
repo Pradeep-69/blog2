@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            shape-outside: circle(45%);
+            clip-path: circle(50%);
+            float: left;
+            height: 250px;
+            width: 250px;
+            object-fit: cover;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .image1 {
+            filter: grayscale(100%) brightness(1.5) contrast(1.2);
+        }
+
+        .image2 {
+            filter: sepia(0.8) brightness(1.2) blur(2px);
+        }
+
+        .image3 {
+            filter: invert(100%) saturate(2) hue-rotate(90deg);
+        }
+
+        .image4 {
+            filter: grayscale(100%) sepia(1) opacity(0.7);
+        }
+
+        .image5 {
+            filter: contrast(1.5) drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+        }
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            border: 5px solid;
+            padding: 10px;
+            justify-content: space-around;
+        }
+
+        p {
+            margin-left: 20px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <img class="image1" src="./dhanush.jpg" alt="Image 1">
+        <p>Venkatesh Prabhu Kasthuri Raja (born 28 July 1983),[2] known professionally as Dhanush, is an Indian actor, filmmaker,
+             lyricist and playback singer who primarily works in Tamil cinema.
+             Having starred in 50 films over his career, 
+            his accolades include four National Film Awards (two as actor and two as producer),
+             fourteen SIIMA Awards,</p>
+    </div>
+    
+    <div>
+        <img class="image2" src="./dhruv.jpg" alt="Image 2">
+        <p>Dhruv Vikram (born 23 September 1997) is an Indian actor, singer and lyricist who works in Tamil films. 
+            The son of actor Vikram, he made his acting debut with the 
+            2019 film Adithya Varma and starred with his father in Mahaan (2022).
+             Since 2022, he has been focusing primarily on singing,
+              both in film and non-film songs</p>
+    </div>
+
+    <div>
+        <img class="image3" src="./superman.jpg" alt="Image 3">
+        <p>Superman is a superhero created by writer Jerry Siegel and artist Joe Shuster,
+             and first appeared in the comic book Action Comics #1, published in America on April 18, 1938.
+              Superman has been regularly published in American comic books since 1938,
+               and has been adapted to other media including radio serials,
+             novels, films, television shows, theater, and video games.</p>
+
+    <div>
+        <img class="image4" src="./wonder woman.jpg" alt="Image 4">
+        <p>Wonder Woman is a superheroine created by the American psychologist and writer
+             William Moulton Marston (pen name: Charles Moulton), and artist Harry G. 
+            Peter in 1941 for DC Comics. Marston's wife, Elizabeth, and their life partner,
+             Olive Byrne, are credited as being his inspiration for the character's appearance.
+             She is one of the first superheroes of DC comics and is one of the strongest superheroes of all time.</p>
+    </div>
+
+    <div>
+        <img class="image5" src="./captain america 2.jpg" alt="Image 5">
+        <p>Captain America is a superhero created by Joe Simon and Jack Kirby 
+            who appears in American comic books published by Marvel Comics. 
+            The character first appeared in Captain America Comics #1, published on December 20, 1940,
+             by Timely Comics, a corporate predecessor to Marvel.
+             Captain America's civilian identity is Steven "Steve" Rogers,
+              a frail man enhanced to the peak of human</p>
+    </div>
+
+</body>
+</html>
